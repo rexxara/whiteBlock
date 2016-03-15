@@ -1,0 +1,33 @@
+#main{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border: black solid 2px;
+}
+h1{
+    text-align: center; 
+    color: red;
+}
+#container{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -100px;
+}
+.row{
+    width: 100%;
+    height: 100px;
+}
+.cell{
+    width: 96px;
+    height: 96px;
+    background: white;
+    border: green solid 2px;
+    float: left;
+}
+.black{
+    background: black;
+}
